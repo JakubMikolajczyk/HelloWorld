@@ -5,8 +5,8 @@ public class Main {
 	Test abc = new  Test();
 
 	abc.method();
-	abc.a=12;
-	System.out.println(abc.a);
+	abc.setA(13);
+	System.out.println(abc.getA());
 
     }
 }
